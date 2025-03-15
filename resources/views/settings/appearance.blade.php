@@ -4,7 +4,7 @@
 
     <x-settings.layout :heading="__('Appearance')" :subheading=" __('Update the appearance settings for your account')">
         <fieldset>
-            <legend class="sr-only">Appearance</legend>
+            <legend class="sr-only">{{__('Appearance')}}</legend>
             <x-button.group>
                 <x-button type="button" variant="secondary" before="phosphor-sun-fill" value="light" onclick="setAppearance(this.value)">{{ __('Light') }}</x-button>
                 <x-button type="button" variant="secondary" before="phosphor-moon-fill" value="dark" onclick="setAppearance(this.value)">{{ __('Dark') }}</x-button>

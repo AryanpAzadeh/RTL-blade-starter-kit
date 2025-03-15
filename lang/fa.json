@@ -92,5 +92,17 @@
     "log in" : "ورود به حساب کاربری",
     "Please enter your new password below": "لطفا رمز عبور جدید را وارد کنید",
     "Verification required" : "تایید لازم است",
-    "Please verify your email address by clicking on the link we just emailed to you." : "با کلیک بر روی لینکی که به تازگی برای شما ایمیل فرستادیم، آدرس ایمیل خود را تأیید کنید."
+    "Please verify your email address by clicking on the link we just emailed to you." : "با کلیک بر روی لینکی که به تازگی برای شما ایمیل فرستادیم، آدرس ایمیل خود را تأیید کنید.",
+    "Update your name and email address" : "نام و آدرس ایمیل خود را به روز کنید",
+    "Settings": "تنظیمات",
+    "Manage your profile and account settings" : "تنظیمات پروفایل و حساب خود را مدیریت کنید",
+    "Profile | Settings": "مشخصات | تنظیمات",
+    "Password | Settings": "تنظیمات | رمز عبور",
+    "Appearance | Settings": "تنظیمات | ظاهر",
+    "Appearance" : "ظاهر",
+    "Delete your account and all of its resources": "حساب خود و تمام منابع آن را حذف کنید",
+    "Update the appearance settings for your account": "تنظیمات ظاهری حساب خود را به روز کنید",
+    "Light": "لایت",
+    "Dark" : "دارک",
+    "System" : "سیستم"
 }

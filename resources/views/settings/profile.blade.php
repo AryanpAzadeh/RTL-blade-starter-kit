@@ -41,12 +41,12 @@
 
         <section class="mt-10 space-y-6">
             <div class="relative mb-5">
-                <x-heading>{{ __('Delete account') }}</x-heading>
+                <x-heading>{{ __('Delete Account') }}</x-heading>
                 <x-subheading>{{ __('Delete your account and all of its resources') }}</x-subheading>
             </div>
 
             <x-button type="button" variant="danger" x-init="" x-on:click="$dispatch('modal:open', 'confirm_user_deletion')">
-                {{ __('Delete account') }}
+                {{ __('Delete Account') }}
             </x-button>
 
             <x-modal id="confirm_user_deletion" :open="$errors->has('password')">
@@ -60,9 +60,9 @@
 
                     <x-input type="password" :label="__('Password')" name="password" />
 
-                    <div class="flex justify-end space-x-2">
+                    <div class="flex justify-start space-x-2">
                         <x-button variant="secondary" form="confirm_user_deletion_close">{{ __('Cancel') }}</x-button>
-                        <x-button variant="danger">{{ __('Delete account') }}</x-button>
+                        <x-button variant="danger">{{ __('Delete Account') }}</x-button>
                     </div>
                 </x-form>
             </x-modal>

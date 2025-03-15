@@ -3,7 +3,7 @@
     <head>
         @include('partials.head')
     </head>
-    <body class="layout min-h-screen bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300">
+    <body class="layout min-h-screen bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 transition-colors duration-300">
         <x-header class="border-b border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-900">
             <x-container class="flex items-center">
                 <x-sidebar.toggle class="lg:hidden w-10 p-0">

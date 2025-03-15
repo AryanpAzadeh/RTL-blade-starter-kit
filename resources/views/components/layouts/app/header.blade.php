@@ -27,7 +27,7 @@
                     <x-navbar.item
                         class="h-10 max-lg:hidden [&>div>svg]:size-5"
                         before="phosphor-git-branch"
-                        href="https://github.com/imacrayon/blade-starter-kit"
+                        href="https://github.com/AryanpAzadeh/RTL-blade-starter-kit"
                         target="_blank"
                         label="Repository"
                     />
@@ -96,11 +96,11 @@
             <x-spacer />
 
             <x-navlist>
-                <x-navlist.item before="phosphor-git-pull-request" href="https://github.com/imacrayon/blade-starter-kit" target="_blank">
+                <x-navlist.item before="phosphor-git-pull-request" href="https://github.com/AryanpAzadeh/RTL-blade-starter-kit" target="_blank">
                 {{ __('Repository') }}
                 </x-navlist.item>
 
-                <x-navlist.item before="phosphor-book-open-text" href="https://github.com/imacrayon/blade-starter-kit" target="_blank">
+                <x-navlist.item before="phosphor-book-open-text" href="https://github.com/AryanpAzadeh/RTL-blade-starter-kit" target="_blank">
                 {{ __('Documentation') }}
                 </x-navlist.item>
             </x-navlist>

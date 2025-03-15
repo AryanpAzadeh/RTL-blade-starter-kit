@@ -24,7 +24,7 @@
             <x-spacer />
 
             <x-navlist>
-                <x-navlist.item before="phosphor-git-pull-request" href="https://github.com/imacrayon/blade-starter-kit" target="_blank">
+                <x-navlist.item before="phosphor-git-pull-request" href="https://github.com/AryanpAzadeh/RTL-blade-starter-kit" target="_blank">
                 {{ __('Repository') }}
                 </x-navlist.item>
 

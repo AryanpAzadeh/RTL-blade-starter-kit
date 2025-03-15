@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark" dir="rtl">
     <head>
         @include('partials.head')
     </head>
@@ -40,22 +40,22 @@
                             {{ auth()->user()->initials() }}
                         </span>
                     </span>
-                    <span class="ml-2 text-sm text-gray-500 dark:text-white/80 group-hover:text-gray-800 dark:group-hover:text-white font-medium truncate">
+                    <span class="mr-2 text-sm text-gray-500 dark:text-white/80 group-hover:text-gray-800 dark:group-hover:text-white font-medium truncate">
                         {{ auth()->user()->name }}
                     </span>
-                    <span class="shrink-0 ml-auto size-8 flex justify-center items-center">
+                    <span class="shrink-0 mr-auto size-8 flex justify-center items-center">
                         <x-phosphor-caret-up-down aria-hidden="true" width="16" height="16" class="text-gray-400 dark:text-white/80 group-hover:text-gray-800 dark:group-hover:text-white" />
                     </span>
                 </button>
                 <x-slot:menu class="w-max">
-                    <div class="flex items-center gap-2 px-1 py-1.5 text-left text-sm">
+                    <div class="flex items-center gap-2 px-1 py-1.5 text-right text-sm">
                         <span class="relative flex h-8 w-8 shrink-0 overflow-hidden rounded-lg">
                             <span class="flex h-full w-full items-center justify-center rounded-lg bg-gray-200 text-black dark:bg-gray-700 dark:text-white">
                                 {{ auth()->user()->initials() }}
                             </span>
                         </span>
 
-                        <div class="grid flex-1 text-left text-sm leading-tight">
+                        <div class="grid flex-1 text-right text-sm leading-tight">
                             <span class="truncate font-semibold">{{ auth()->user()->name }}</span>
                             <span class="truncate text-xs">{{ auth()->user()->email }}</span>
                         </div>
@@ -86,7 +86,7 @@
                                 {{ auth()->user()->initials() }}
                             </span>
                         </span>
-                        <span class="shrink-0 ml-auto size-8 flex justify-center items-center">
+                        <span class="shrink-0 mr-auto size-8 flex justify-center items-center">
                             <x-phosphor-caret-down width="16" height="16" class="text-gray-400 dark:text-white/80 group-hover:text-gray-800 dark:group-hover:text-white" />
                         </span>
                     </button>
@@ -97,7 +97,7 @@
                                     {{ auth()->user()->initials() }}
                                 </span>
                             </span>
-                            <div class="grid flex-1 text-left text-sm leading-tight">
+                            <div class="grid flex-1 text-right text-sm leading-tight">
                                 <span class="truncate font-semibold">{{ auth()->user()->name }}</span>
                                 <span class="truncate text-xs">{{ auth()->user()->email }}</span>
                             </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark" dir="rtl">
     <head>
         @include('partials.head')
     </head>
@@ -42,7 +42,7 @@
 
                 <!-- Desktop User Menu -->
                 <x-popover align="top" justify="right">
-                    <button type="button" class="w-full group flex items-center rounded-lg p-1 hover:bg-gray-800/5 dark:hover:bg-white/10">
+                    <button type="button" class="w-full group flex items-center rounded-lg p-1 hover:bg-gray-800/5 dark:hover:bg-white/10 cursor-pointer">
                         <span class="shrink-0 size-8 bg-gray-200 rounded-sm overflow-hidden dark:bg-gray-700">
                             <span class="w-full h-full flex items-center justify-center text-sm">
                                 {{ auth()->user()->initials() }}
@@ -59,7 +59,7 @@
                                     {{ auth()->user()->initials() }}
                                 </span>
                             </span>
-                            <div class="grid flex-1 text-left text-sm leading-tight">
+                            <div class="grid flex-1 text-right text-sm leading-tight">
                                 <span class="truncate font-semibold">{{ auth()->user()->name }}</span>
                                 <span class="truncate text-xs">{{ auth()->user()->email }}</span>
                             </div>

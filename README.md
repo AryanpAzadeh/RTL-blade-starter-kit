@@ -19,6 +19,9 @@
 ```sh
 laravel new my-app --using=aryanp-azadeh/rtl-blade-starter-kit
 ```
+## تغییر APP_LOCALE به fa
+
+
 
 ✅ حالا پروژه‌ی شما آماده است! 🌟
 

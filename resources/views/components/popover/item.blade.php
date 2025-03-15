@@ -6,7 +6,7 @@
 
 @php
 $classes = [
-    'group flex items-center px-2 py-2 lg:py-1.5 w-full',
+    'group flex items-center px-2 py-2 lg:py-1.5 w-full cursor-pointer',
     'rounded-md',
     'text-right text-sm font-medium',
     'text-gray-800 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-600',

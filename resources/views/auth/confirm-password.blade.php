@@ -1,7 +1,7 @@
-<x-layouts.auth :title="__('Confirm password')">
+<x-layouts.auth :title="__('Confirm Password')">
 <div class="space-y-6">
     <x-auth-header
-        :title="__('Confirm password')"
+        :title="__('Confirm Password')"
         :description="__('This is a secure area of the application. Please confirm your password before continuing.')"
     />
 

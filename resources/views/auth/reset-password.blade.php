@@ -1,6 +1,6 @@
-<x-layouts.auth :title="__('Reset password')">
+<x-layouts.auth :title="__('Reset Password')">
 <div class="space-y-6">
-    <x-auth-header :title="__('Reset password')" :description="__('Please enter your new password below')" />
+    <x-auth-header :title="__('Reset Password')" :description="__('Please enter your new password below')" />
 
     <!-- Session Status -->
     <x-auth-session-status class="text-center" :status="session('status')" />
@@ -34,7 +34,7 @@
             autocomplete="new-password"
         />
 
-        <x-button class="w-full">{{ __('Reset password') }}</x-button>
+        <x-button class="w-full">{{ __('Reset Password') }}</x-button>
     </x-form>
 </div>
 </x-layouts.auth>

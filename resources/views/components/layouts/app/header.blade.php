@@ -41,7 +41,7 @@
                 </x-navbar>
 
                 <!-- Desktop User Menu -->
-                <x-popover align="top" justify="right">
+                <x-popover align="top" justify="left">
                     <button type="button" class="w-full group flex items-center rounded-lg p-1 hover:bg-gray-800/5 dark:hover:bg-white/10 cursor-pointer">
                         <span class="shrink-0 size-8 bg-gray-200 rounded-sm overflow-hidden dark:bg-gray-700">
                             <span class="w-full h-full flex items-center justify-center text-sm">

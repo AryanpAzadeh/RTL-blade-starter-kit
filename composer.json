@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "AryanpAzadeh/RTL-blade-starter-kit",
+    "name": "aryanp-azadeh/rtl-blade-starter-kit",
     "type": "project",
     "description": "The unofficial RTL Laravel starter kit for Blade.",
     "keywords": [

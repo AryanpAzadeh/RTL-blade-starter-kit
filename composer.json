@@ -1,12 +1,14 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "imacrayon/blade-starter-kit",
+    "name": "AryanpAzadeh/RTL-blade-starter-kit",
     "type": "project",
-    "description": "The unofficial Laravel starter kit for Blade.",
+    "description": "The unofficial RTL Laravel starter kit for Blade.",
     "keywords": [
         "laravel",
         "framework",
-        "blade"
+        "blade",
+        "RTL",
+        "persian"
     ],
     "license": "MIT",
     "require": {
